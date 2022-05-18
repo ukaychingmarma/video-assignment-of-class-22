@@ -1,0 +1,32 @@
+/* carousel-seciton */
+.carousel-img{
+     height:600px;
+}
+/* font-family */
+body,h1,h2,h3,h4,h5,h6,p,b,i,a{
+     font-family: 'Work Sans', sans-serif;
+}
+.btn{
+     font-weight:bolder;
+}
+.logo{
+     font-size:30px;
+     position:relative;
+     top:5px;
+}
+.font{
+     font-family: 'Style Script', cursive;
+     font-size: 25px;
+}
+.carousel-img{
+     position:relative !important;
+}
+.carousel-img::before{
+     content: '';
+     background-color: rgb(0, 0, 0, .5) !important;
+     position:absolute !important;
+     width: 100% !important;
+     height: 100% !important;
+     top:0 !important;
+     left: 0 !important;
+}
